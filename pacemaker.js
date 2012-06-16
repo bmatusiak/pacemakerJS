@@ -27,3 +27,6 @@ function makeHash(string){
     shasum.update(string);
     return shasum.digest('hex');   
 }
+module.exports.check =  function(string,passphrase){
+    return (makeHash(string) === passphrase);
+}
