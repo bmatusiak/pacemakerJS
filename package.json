@@ -1,0 +1,18 @@
+{
+  "author": "Bradley Matusiak <bmatusiak@gmail.com> (http://vorknode.herokuapp.com/)",
+  "name": "pacemakerJS",
+  "description": "Passphrase Generation Tool",
+  "version": "0.0.1",
+  "homepage": "vorknode.herokuapp.com",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bmatusiak/pacemakerJS.git"
+  },
+  "main": "pacemaker.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
